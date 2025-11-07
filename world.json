@@ -1,0 +1,15 @@
+{
+  "dorf": {
+    "dorfplatz": {
+      "beschreibung": "Der alte Dorfplatz mit Brunnen.",
+      "wege": {
+        "norden": "Wald",
+        "osten": "Markt",
+        "westen": "Stadt"
+      }
+    }
+  },
+  "stadt": {
+    "stadtzentrum": { "beschreibung": "Das Zentrum mit einer gigantischen Statue" }
+  }
+}
