@@ -1,9 +1,9 @@
 import os
 
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-PLAYER_PATH = os.path.join(BASE_DIR, "player.json")
-WORLD_PATH = os.path.join(BASE_DIR, "world.json")
+HAUPTORDNER = os.path.dirname(os.path.abspath(__file__))
+SPIELER_PFAD = os.path.join(HAUPTORDNER, "player.json")
+WELT_PFAD = os.path.join(HAUPTORDNER, "world.json")
 
 
 def menue():
@@ -22,4 +22,4 @@ def menue():
             print("Fehler! Das ist keine gültige Zahl!")
 
 
-menue(PLAYER_PATH, WORLD_PATH)
+menue(SPIELER_PFAD, WELT_PFAD)
